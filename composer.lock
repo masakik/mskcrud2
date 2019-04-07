@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fc5dd4b06c8e2f8bcd6dbb855167b59b",
+    "content-hash": "1d71a537ddeb63ddaa08955d1094e851",
     "packages": [
         {
             "name": "bower-asset/angular",
@@ -289,16 +289,16 @@
         },
         {
             "name": "raelgc/template",
-            "version": "v2.2.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/raelgc/template.git",
-                "reference": "28ce6af12e1c49243a27167e84feb704b4ab5f5d"
+                "url": "https://github.com/masakik/template.git",
+                "reference": "e8a276fffea8ffda1e863941b328c6491252ef45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/raelgc/template/zipball/28ce6af12e1c49243a27167e84feb704b4ab5f5d",
-                "reference": "28ce6af12e1c49243a27167e84feb704b4ab5f5d",
+                "url": "https://api.github.com/repos/masakik/template/zipball/e8a276fffea8ffda1e863941b328c6491252ef45",
+                "reference": "e8a276fffea8ffda1e863941b328c6491252ef45",
                 "shasum": ""
             },
             "require": {
@@ -310,7 +310,6 @@
                     "raelgc\\": "raelgc"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "LGPL-2.1-or-later"
             ],
@@ -325,13 +324,18 @@
             "keywords": [
                 "template"
             ],
-            "time": "2018-04-24T20:53:45+00:00"
+            "support": {
+                "source": "https://github.com/masakik/template/tree/master"
+            },
+            "time": "2019-04-07T01:17:08+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "raelgc/template": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
