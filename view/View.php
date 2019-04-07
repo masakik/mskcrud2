@@ -24,5 +24,7 @@ class View
         $id = R::store($teste);
         $tpl->CORPO = $id;
         Flight::tpl()->show();
+        $GLOBALS['log']->info('Adding a new record to database', array('id' => $id));
+
     }
 }
