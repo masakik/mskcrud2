@@ -6,6 +6,12 @@ use \RedBeanPHP\R as R;
 
 class View
 {
+
+    public static function test()
+    {
+        echo 'hello world';
+    }
+    
     public static function hello()
     {
         $tpl = Flight::tpl();
